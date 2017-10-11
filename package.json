@@ -1,0 +1,24 @@
+{
+  "name": "platformer",
+  "version": "0.0.1",
+  "description": "Platform game in javascript",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve ./public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "platform",
+    "platformer",
+    "javascript",
+    "game"
+  ],
+  "author": "Felipe Milani",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^6.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.7.4"
+  }
+}
