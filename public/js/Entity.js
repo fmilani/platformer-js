@@ -1,3 +1,5 @@
+import { Vector2 } from './math.js';
+
 export class Trait {
   constructor(name) {
     this.NAME = name;
@@ -10,9 +12,14 @@ export class Trait {
 
 // Represents any object that can be on a screen
 export default class Entity {
-  constructor({ position, velocity }) {
-    this.position = position;
-    this.velocity = velocity;
+  constructor({
+    position = { x: 0, y: 0 },
+    velocity = { x: 0, y: 0 },
+    size = { x: 0, y: 0 },
+  }) {
+    this.position = new Vector2(position);
+    this.velocity = new Vector2(velocity);
+    this.size = new Vector2(size);
 
     this.traits = [];
   }

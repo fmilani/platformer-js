@@ -19,6 +19,36 @@
           "x_end": 25,
           "y_start": 12,
           "y_end": 14
+        },
+        {
+          "x_start": 5,
+          "x_end": 8,
+          "y_start": 9,
+          "y_end": 10
+        },
+        {
+          "x_start": 12,
+          "x_end": 18,
+          "y_start": 11,
+          "y_end": 12
+        },
+        {
+          "x_start": 2,
+          "x_end": 3,
+          "y_start": 11,
+          "y_end": 12
+        },
+        {
+          "x_start": 10,
+          "x_end": 12,
+          "y_start": 10,
+          "y_end": 11
+        },
+        {
+          "x_start": 9,
+          "x_end": 10,
+          "y_start": 0,
+          "y_end": 7
         }
       ]
     }
